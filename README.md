@@ -56,7 +56,7 @@
       "22790": { name: "เด็กหญิงสุณัฎฐา ตีเมืองสอง", lesson1: 13, lesson2: null },
       "23783": { name: "เด็กหญิงสมิตา ยิ้มทอง", lesson1: 9, lesson2: null },
       "23784": { name: "เด็กหญิงกีรติญา วิทูรัตน์", lesson1: 9, lesson2: 4 },
-      "23785": { name: "เด็กหญิงสุชาพร สวัสดิพิศาล", lesson1: 7, lesson2: 1 },
+      "23785": { name: "เด็กหญิงสุชาพร สว่างสดิพิศาล", lesson1: 7, lesson2: 1 },
       "23786": { name: "เด็กหญิงพรพิมล สุวรรณเกตุ", lesson1: 14, lesson2: 14 },
       "23787": { name: "เด็กหญิงพัชรณัฏฐ์ อยู่เพ็ชร", lesson1: 14, lesson2: 9 },
       "23788": { name: "เด็กหญิงกมลวรรณ ขยายฤทธิ์", lesson1: 6, lesson2: 3 },
@@ -201,6 +201,24 @@
               </div>
               <div style="font-size: ${baseSize * 0.95}px; font-weight: 700; color: ${textColor}; opacity: 0.85; font-family: ${customFont}, sans-serif;">
                 ครูผู้สอน ${teacherName}
+              </div>
+            </div>
+
+            <div style="margin-bottom: 24px; padding: 20px; background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%); border-radius: 16px; border: 2px solid #bfdbfe;">
+              <div style="font-size: ${baseSize * 1.05}px; font-weight: 700; color: #1e40af; margin-bottom: 12px; font-family: ${customFont}, sans-serif; display: flex; align-items: center; gap: 8px;">
+                <span style="font-size: ${baseSize * 1.3}px;">ℹ️</span>
+                คำแนะนำการเข้าใช้งาน
+              </div>
+              <div style="font-size: ${baseSize * 0.85}px; color: #1e3a8a; line-height: 1.8; font-family: ${customFont}, sans-serif;">
+                <div style="margin-bottom: 8px;">
+                  <span style="font-weight: 600;">📌 เลขประจำตัวนักเรียน:</span> กรอก 5 หลัก เช่น 99999
+                </div>
+                <div style="margin-bottom: 8px;">
+                  <span style="font-weight: 600;">🔐 รหัสผ่าน:</span> 105MEP68
+                </div>
+                <div style="margin-top: 12px; padding: 10px; background: white; border-radius: 8px; border-left: 3px solid #3b82f6;">
+                  <span style="font-weight: 600;">💡 เคล็ดลับ:</span> หากเข้าสู่ระบบไม่ได้ ให้ตรวจสอบว่ากรอกเลขประจำตัว 5 หลักถูกต้อง และใช้รหัสผ่านที่ครูแจ้ง
+                </div>
               </div>
             </div>
 
@@ -439,5 +457,5 @@
 
     initApp();
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9b9b5cd1e4d97322',t:'MTc2NzcwNDA1Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9b9b6cc613fd732e',t:'MTc2NzcwNDcwNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
